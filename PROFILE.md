@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Rainbow Text</title>
 
-<style>
-body{
-    background:black;
-    text-align:center;
-    margin-top:100px;
-    font-size:60px;
-    font-weight:bold;
-    font-family:Arial;
-}
-
-.r1{color:#FF33FF;}
-.r2{color:#66FFCC;}
-.r3{color:yellow;}
-.r4{color:lime;}
-.r5{color:cyan;}
-.r6{color:blue;}
-.r7{color:violet;}
-</style>
-
-</head>
-<body>
-
-<span class="r1">ช</span>
-<span class="r2">า</span>
-<span class="r3">ย</span>
-<span class="r4">ภู</span>
-<span class="r5">🌈</span>
-
-</body>
-</html>
 ข้าพเจ้า นายวุฒิศักดิ์ สวัสดี หรือที่เพื่อนๆชอบเรียกพ่อหนุ่มIT นักเรียนชั้นมัธยมศึกษาปีที่ 6 จากโรงเรียนกระทุ่มแบน"วิเศษสมุทคุณ" โดยปกติแล้วตัวกระผมเองเป็นคนที่ชอบเกี่ยวกับเทคโนโลยีอยู่แล้ว ในรายวิชาคอมพิวเตอร์คุณครูสั่งงานโดยให้กระผมทำเว็บไซด์ เว็บไซด์ที่ผมทำนับว่าเป็นจุดเริ่มต้นที่ทำให้ตัวกระผมมุ่งมั่นไปในทางเทคโนโลยีมากขึ้น กระผมได้รับโอกาสจากคุณครูท่านนี้ที่สอนรายวิชาคอมพิวเตอร์ 
 ท่านได้เห็นถึงความชอบของกระผมจึงได้ชวนกระผม
 เข้าแข่งขันศิลปหัตถกรรมได้รางวัลชนะเลิศ และการแข่งขันต่างๆที่เกี่ยวกับเทคโนโลยี
