@@ -1,1 +1,1 @@
-
+# STATEMENT OF PURPOSE จดหมายแนะนำตัว
