@@ -1,67 +1,6 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>เว็บสีรุ้ง</title>
-
-<style>
-body{
-    margin:0;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:black;
-}
-
-.rainbow{
-    font-size:70px;
-    font-weight:bold;
-
-    background:linear-gradient(
-        90deg,
-        red,
-        orange,
-        yellow,
-        green,
-        cyan,
-        blue,
-        violet,
-        red
-    );
-
-    background-size:300%;
-    background-clip:text;
-    -webkit-background-clip:text;
-
-    color:transparent;
-    -webkit-text-fill-color:transparent;
-
-    animation:rainbow 3s linear infinite;
-}
-
-@keyframes rainbow{
-    from{
-        background-position:0%;
-    }
-
-    to{
-        background-position:300%;
-    }
-}
-</style>
-</head>
-
-<body>
-
 <h1 class="rainbow">
 ชายภู 🌈
 </h1>
-
-</body>
-</html>
 ข้าพเจ้า นายวุฒิศักดิ์ สวัสดี หรือที่เพื่อนๆชอบเรียกพ่อหนุ่มIT นักเรียนชั้นมัธยมศึกษาปีที่ 6 จากโรงเรียนกระทุ่มแบน"วิเศษสมุทคุณ" โดยปกติแล้วตัวกระผมเองเป็นคนที่ชอบเกี่ยวกับเทคโนโลยีอยู่แล้ว ในรายวิชาคอมพิวเตอร์คุณครูสั่งงานโดยให้กระผมทำเว็บไซด์ เว็บไซด์ที่ผมทำนับว่าเป็นจุดเริ่มต้นที่ทำให้ตัวกระผมมุ่งมั่นไปในทางเทคโนโลยีมากขึ้น กระผมได้รับโอกาสจากคุณครูท่านนี้ที่สอนรายวิชาคอมพิวเตอร์ 
 ท่านได้เห็นถึงความชอบของกระผมจึงได้ชวนกระผม
 เข้าแข่งขันศิลปหัตถกรรมได้รางวัลชนะเลิศ และการแข่งขันต่างๆที่เกี่ยวกับเทคโนโลยี
