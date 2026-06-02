@@ -1,44 +1,36 @@
 <!DOCTYPE html>
-<html lang="th">
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Rainbow Text</title>
 
 <style>
-.rainbow {
-    font-size: 50px;
-    font-weight: bold;
-    background: linear-gradient(
-        90deg,
-        red,
-        orange,
-        yellow,
-        green,
-        cyan,
-        blue,
-        violet,
-        red
-    );
-    background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 5s linear infinite;
+body{
+    background:black;
+    text-align:center;
+    margin-top:100px;
+    font-size:60px;
+    font-weight:bold;
+    font-family:Arial;
 }
 
-@keyframes rainbow {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 400%;
-    }
-}
+.r1{color:red;}
+.r2{color:orange;}
+.r3{color:yellow;}
+.r4{color:lime;}
+.r5{color:cyan;}
+.r6{color:blue;}
+.r7{color:violet;}
 </style>
-</head>
 
+</head>
 <body>
 
-<h1 class="rainbow">สวัสดีชาวโลก 🌈</h1>
+<span class="r1">ช</span>
+<span class="r2">า</span>
+<span class="r3">ย</span>
+<span class="r4">ภู</span>
+<span class="r5">🌈</span>
 
 </body>
 </html>
