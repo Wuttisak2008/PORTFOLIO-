@@ -1,3 +1,3 @@
 # PORTFOLIO- สวัสดีคุณครูและเพื่อนๆที่น่ารัก  
 ## แฟ้มสะสมสมผลของงานของ "วุฒิศักดิ์ สวัสดี"ที่น่ารักที่สุดของครูสุมาลย์ ราญไพร❤❤❤  
-![สวยสุดในม.6](file:///C:/Users/PC-ChaiPhu/Downloads/download.jpg)
+<img src="file:///C:/Users/PC-ChaiPhu/Downloads/download.jpg" width="100%">
