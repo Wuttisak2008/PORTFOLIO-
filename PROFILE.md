@@ -1,38 +1,54 @@
-#งใช้ HTML + CSS แบบนี้ได้เลย ข้อความจะเป็น สีรุ้งเคลื่อนไหว
-
 <!DOCTYPE html>
 <html lang="th">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Rainbow Text</title>
 
 <style>
-.rainbow {
-    font-size: 50px;
-    font-weight: bold;
-    background: linear-gradient(
-        90deg,
-        red,
-        orange,
-        yellow,
-        green,
-        cyan,
-        blue,
-        violet,
-        red
-    );
-    background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 5s linear infinite;
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
 }
 
-@keyframes rainbow {
-    0% {
-        background-position: 0%;
+.rainbow{
+    font-size:60px;
+    font-weight:bold;
+    font-family:Arial, sans-serif;
+
+    background: linear-gradient(
+        90deg,
+        #ff0000,
+        #ff7f00,
+        #ffff00,
+        #00ff00,
+        #00ffff,
+        #0000ff,
+        #8b00ff,
+        #ff0000
+    );
+
+    background-size:300% auto;
+    background-clip:text;
+    -webkit-background-clip:text;
+
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+
+    animation:rainbow 4s linear infinite;
+}
+
+@keyframes rainbow{
+    from{
+        background-position:0% center;
     }
-    100% {
-        background-position: 400%;
+    to{
+        background-position:300% center;
     }
 }
 </style>
@@ -40,10 +56,10 @@
 
 <body>
 
-<h1 class="rainbow">STATEMENT OF PURPOSE🌈</h1>
+<h1 class="rainbow">ChaiPhu 🌈</h1>
 
 </body>
-</html> 
+</html>
 ข้าพเจ้า นายวุฒิศักดิ์ สวัสดี หรือที่เพื่อนๆชอบเรียกพ่อหนุ่มIT นักเรียนชั้นมัธยมศึกษาปีที่ 6 จากโรงเรียนกระทุ่มแบน"วิเศษสมุทคุณ" โดยปกติแล้วตัวกระผมเองเป็นคนที่ชอบเกี่ยวกับเทคโนโลยีอยู่แล้ว ในรายวิชาคอมพิวเตอร์คุณครูสั่งงานโดยให้กระผมทำเว็บไซด์ เว็บไซด์ที่ผมทำนับว่าเป็นจุดเริ่มต้นที่ทำให้ตัวกระผมมุ่งมั่นไปในทางเทคโนโลยีมากขึ้น กระผมได้รับโอกาสจากคุณครูท่านนี้ที่สอนรายวิชาคอมพิวเตอร์ 
 ท่านได้เห็นถึงความชอบของกระผมจึงได้ชวนกระผม
 เข้าแข่งขันศิลปหัตถกรรมได้รางวัลชนะเลิศ และการแข่งขันต่างๆที่เกี่ยวกับเทคโนโลยี
