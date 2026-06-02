@@ -14,8 +14,8 @@ body{
     font-family:Arial;
 }
 
-.r1{color:red;}
-.r2{color:orange;}
+.r1{color:#FF33FF;}
+.r2{color:#66FFCC;}
 .r3{color:yellow;}
 .r4{color:lime;}
 .r5{color:cyan;}
